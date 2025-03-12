@@ -1,0 +1,40 @@
+h1 {
+    color:#00be10;
+    font-size:130%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+}
+
+
+.main_heading {
+    text-align:center;
+}
+.body {
+    text-align:center;
+}
+table, th, td {
+    border: 1px solid black;
+    align-self:center;
+    color:rgb(221, 18, 59);
+    
+    
+}
+
+th {
+    text-align:center;
+}
+
+.caption_one {
+    font-family:'Times New Roman', Times, serif;
+}
+
+table {
+    text-align:center;
+}
+div {
+    text-align:center;
+}
+
+h2 {
+    color:#00be10;
+}
