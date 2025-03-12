@@ -13,7 +13,7 @@
             }
             .navbar {
                 background-color:crimson;font-family:'Times New Roman', Times, serif;
-                padding-left:15px;padding-right:15px;
+                padding:0;padding:0;
             }
             .navdiv {
                 display:flex;align-items:center;justify-content:space-between;
@@ -25,10 +25,10 @@
                 list-style:none;display:inline-block
             }
             li a{
-                color:black;font-size:15px;font-weight:bold;margin-right: 20px;
+                color:black;font-size:15px;font-weight:bold;margin:0;
             }
             button {
-                background-color:white;margin-left: 10px;border-radius:10px;padding:10px;
+                background-color:white;margin:0;border-radius:0;padding:0;
                 width:90px;
             }
             button a{
@@ -46,16 +46,16 @@
         <body>
             <nav class="navbar"></nav>
             <div class="navdiv">
-                <div class="logo"><a href="#">SparklePro</a> </div>
+                <div class="logo"><a href="default.asp">SparklePro</a> </div>
             </div>
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">News</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <button><a href="#">SignIn</a></button>
-                <button><a href="#">SignOut</a></button>
+                <li><a href="home.asp">Home</a></li>
+                <li><a href="services">Services</a></li>
+                <li><a href="news.asp">News</a></li>
+                <li><a href="aboutus.asp">About Us</a></li>
+                <li><a href="contactus.asp">Contact Us</a></li>
+                <button><a href="signin.asp">SignIn</a></button>
+                <button><a href="signout.asp">SignOut</a></button>
             </ul>
             <a href="index.html">Home</a><br>
             <a href="services.html">Services</a><br>
@@ -75,12 +75,13 @@
               detail, SparklePro Cleaing Services ensures that every space we touch shines with perfection.
            </p>
            <h2 style="text-align: center;">WHY CHOOSE SPARKLEPRO</h2>
-           <p style="color:navy">
-            1. Experienced & Reliable Team- Our trained professionals ensure quality and effeciency.<br>
-            2. Eco-Friendly products- Safe for your family, pets and the environment.<br>
-            3. Customized Cleaning Plans- Services tailored to your specific needs.<br>
-            4. Affordable Pricing- Quality cleaning at competitive rates.
-           </p>
+              <div>
+              <p>1. Experienced & Reliable Team- Our trained professionals ensure quality and effeciency.</p><br>
+                <p>2. Eco-Friendly products- Safe for your family, pets and the environment</p><br>
+                 <p>3. Customized Cleaning Plans- Services tailored to your specific needs.</p><br>
+              <p>4. Affordable Pricing- Quality cleaning at competitive rates.</p>
+           </div>
+           
         <br>
         <img src="images/girl.jpg">
         </body>
