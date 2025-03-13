@@ -33,14 +33,14 @@ table {
 }
 
 h2 {
-    color:#06500c;
+    color:#07610e;
 }
 {
     text-decoration:none;
 }
 .navbar {
     background-color:azure;font-family:Arial, Helvetica, sans-serif;
-    padding-right: 15px;padding-left: 15px;
+    padding:0;padding:0;
 }
 .navdiv {
     display:flex;align-items:center;justify-content:space-between;
