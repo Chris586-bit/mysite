@@ -127,7 +127,3 @@ nav a {
 .dropdown:hover .dropbtn {
     background-color:black;
 }
-
-.dropdown {
-    float:right;
-}
