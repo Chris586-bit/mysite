@@ -177,4 +177,10 @@ nav a {
     align-items: center;
 }
 
-
+.checkbtn {
+    font-size:30px;
+    color:white;
+    float:right;
+    line-height:80px;
+    margin-right:40px;
+}
