@@ -70,6 +70,8 @@ li a{
     color:black;
     font-size:15px;
     font-weight:bold;
+    padding:7px 13px;
+    border-radius:3px;
     margin-right: 25px;
     text-transform: uppercase;
 }
