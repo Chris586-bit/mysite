@@ -141,10 +141,12 @@ nav a {
 
 .container .input-box {
     position:relative;
-    width:100%;
+    width:50%;
     height:50px;
     margin:30px 0px;
-    align-items: center;
 }
 
+.container {
+    align-items: center;
+}
 
