@@ -36,6 +36,12 @@ h2 {
     color:#07610e;
 }
 
+.navbar {
+    background-color:greenyellow;
+    border-color: greenyellow;
+    margin:0%;
+    padding:0%;
+}
 
 .navdiv {
     display:flex;align-items:center;justify-content:space-between;
