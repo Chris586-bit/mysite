@@ -125,6 +125,7 @@ nav a {
 .dropdown {
     position:relative;
     display:inline-block;
+    align-items: end;
 }
 
 .dropdown-content {
