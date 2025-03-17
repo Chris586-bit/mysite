@@ -37,8 +37,8 @@ h2 {
 
 .navbar {
     background-color:goldenrod;
-    margin: 15px;
-    padding:15px;
+    margin: opx;
+    padding:0px;
     height:80px;
     width:120px;
 }
