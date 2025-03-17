@@ -125,7 +125,6 @@ nav a {
 .dropdown {
     position:relative;
     display:inline-block;
-    align-items: end;
 }
 
 .dropdown-content {
@@ -178,10 +177,6 @@ nav a {
     width:50%;
     height:50px;
     margin:30px 0px;
-}
-
-.form {
-    align-items: center;
 }
 
 .checkbtn {
